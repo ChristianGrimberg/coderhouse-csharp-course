@@ -33,7 +33,8 @@
 			"extensions": [
 				"ms-dotnettools.csharp",
 				"ms-mssql.mssql",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"ms-dotnettools.csdevkit"
 			]
 		}
 	},
