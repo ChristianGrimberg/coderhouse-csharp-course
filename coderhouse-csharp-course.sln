@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Clase", "01.Clase", "{11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimerApp", "01.Clase\PrimerApp\PrimerApp.csproj", "{4271A902-E2A9-47EB-A005-DBB660B7C5B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio1NombreApellido", "01.Clase\Desafio1NombreApellido\Desafio1NombreApellido.csproj", "{343A26E3-5265-421E-AF25-23CDBAD820F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{4271A902-E2A9-47EB-A005-DBB660B7C5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4271A902-E2A9-47EB-A005-DBB660B7C5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4271A902-E2A9-47EB-A005-DBB660B7C5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343A26E3-5265-421E-AF25-23CDBAD820F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343A26E3-5265-421E-AF25-23CDBAD820F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343A26E3-5265-421E-AF25-23CDBAD820F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343A26E3-5265-421E-AF25-23CDBAD820F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3444A013-67B2-4EB3-8D97-02364B339B35} = {B404517C-3D20-4210-96F9-425187D36EF5}
 		{4271A902-E2A9-47EB-A005-DBB660B7C5B3} = {1196C77C-D7F5-4669-AE0D-1B6BCD69C327}
+		{343A26E3-5265-421E-AF25-23CDBAD820F1} = {1196C77C-D7F5-4669-AE0D-1B6BCD69C327}
 	EndGlobalSection
 EndGlobal
