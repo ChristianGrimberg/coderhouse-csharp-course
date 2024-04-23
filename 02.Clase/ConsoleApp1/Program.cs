@@ -10,3 +10,32 @@ Aquí utilizamos Console.ReadLine() para obtener la cantidad a vender y seguir t
 en la cual como dicha función retorna un string y la cantidad es un entero tuvimos que convertir
 utilizando la función Convert que me permite convertir entre diversos tipos de datos.
 */
+
+int cantidadProductosVendidos;
+int cantidadProductosDeposito = 50;
+int stock;
+
+Console.Write("Ingrese la cantidad de productos vendidos: ");
+cantidadProductosVendidos = Convert.ToInt32(Console.ReadLine());
+
+stock = cantidadProductosDeposito - cantidadProductosVendidos;
+if(stock == 0)
+{
+    Console.WriteLine("Reponer stock de productos.");
+    cantidadProductosDeposito += 10;
+    Console.WriteLine("Productos cargados al deposito.");
+}
+else
+{
+    if(stock <= 5)
+    {
+        Console.WriteLine("Stock minimo, reponer productos");
+        cantidadProductosDeposito += 5;
+        Console.WriteLine("Productos cargados al deposito");
+        Console.WriteLine("Informar a ventas los {0} productos sin vender.",stock);
+    }
+    else
+    {
+        Console.WriteLine("Informar a ventas los {0} productos sin vender.",stock);
+    }
+}
