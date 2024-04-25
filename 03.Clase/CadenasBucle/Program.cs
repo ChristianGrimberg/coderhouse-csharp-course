@@ -21,3 +21,9 @@ string mensaje = "Voy a desarrolllar en C#";
 
 Console.WriteLine("Mensaje en minusculas: {0}", mensaje.ToLower());
 Console.WriteLine("Mensaje en mayusculas: {0}", mensaje.ToUpper());
+
+int numeroEntero = 22;
+double numeroConDecimales = 1.88;
+bool booleano = true;
+
+Console.WriteLine("La edad de Luis es: {0}, {1}, {2}", numeroEntero.ToString(), numeroConDecimales.ToString(), booleano.ToString());
