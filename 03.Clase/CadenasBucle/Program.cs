@@ -27,3 +27,24 @@ double numeroConDecimales = 1.88;
 bool booleano = true;
 
 Console.WriteLine("La edad de Luis es: {0}, {1}, {2}", numeroEntero.ToString(), numeroConDecimales.ToString(), booleano.ToString());
+
+string cadena1 = "Soy una cadena ";
+string cadena2 = "Soy una cadena";
+
+if(cadena1.Equals(cadena2))
+{
+    Console.WriteLine("Las cadenas son iguales");
+}
+else
+{
+    Console.WriteLine("Las cadenas no son iguales");
+}
+
+if(cadena1.Contains(cadena2))
+{
+    Console.WriteLine("Las cadena 1 contiene a cadena 2");
+}
+else
+{
+    Console.WriteLine("La cadena 1 no contiene a cadena 2");
+}
