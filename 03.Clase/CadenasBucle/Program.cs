@@ -16,3 +16,8 @@ else
 //Console.WriteLine(cadenaNula.Length.ToString());
 Console.WriteLine(cadenaVacia.Length.ToString());
 Console.WriteLine(cadenaSaludo.Length.ToString());
+
+string mensaje = "Voy a desarrolllar en C#";
+
+Console.WriteLine("Mensaje en minusculas: {0}", mensaje.ToLower());
+Console.WriteLine("Mensaje en mayusculas: {0}", mensaje.ToUpper());
