@@ -13,4 +13,6 @@ else
     Console.WriteLine("Las cadenas no son iguales");
 }
 
-Console.ReadKey();
+//Console.WriteLine(cadenaNula.Length.ToString());
+Console.WriteLine(cadenaVacia.Length.ToString());
+Console.WriteLine(cadenaSaludo.Length.ToString());
