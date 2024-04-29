@@ -48,3 +48,24 @@ else
 {
     Console.WriteLine("La cadena 1 no contiene a cadena 2");
 }
+
+Console.Write("Ingrese un numero para sumar: ");
+
+string cadena = Console.ReadLine();
+
+double constante = 0.5;
+
+double numeroEnCadenaConvertidoADouble;
+
+double sumaConNumeroDouble;
+
+if (String.IsNullOrEmpty(cadena))
+{
+    Console.WriteLine("La cadena no se parsear ya que esta vacia.");
+}
+else
+{
+    numeroEnCadenaConvertidoADouble = double.Parse(cadena);
+    sumaConNumeroDouble = numeroEnCadenaConvertidoADouble + constante;
+    Console.WriteLine("El resultado es: " +  sumaConNumeroDouble);
+}
