@@ -9,7 +9,7 @@ string ocultarPass(string contraseña)
 
     foreach (char letter in contraseña)
     {
-        contraseñaOculta += "*";
+        contraseñaOculta += '*';
     }
 
     return contraseñaOculta;
