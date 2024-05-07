@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Producto testProducto = new Producto(1, "Lapiz", 3.45f, 0, "Libreria");
+            Producto testProducto = new(1, "Lapiz", 3.45f, 4.5f, "Libreria");
             
-            if(testProducto.hayPrecioDeVenta())
+            if(testProducto.HayPrecioDeVenta())
             {
                 Console.WriteLine("{0}\n{1}","Hay precio de venta", testProducto);
             }
