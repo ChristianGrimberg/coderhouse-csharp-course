@@ -62,11 +62,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp2", "08.Clase\WinFormsApp2\WinFormsApp2.csproj", "{970744C9-5023-44AA-92B4-6CB1D1B9144D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.Clase", "09.Clase", "{AAF02B64-4198-4A98-B6E4-8B3729F8FDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSistemaGestion", "09.Clase\ProjectSistemaGestion\ProjectSistemaGestion.sqlproj", "{32435E9C-C5AA-42C4-AA8D-91524FE72C2A}"
 	ProjectSection(SolutionItems) = preProject
 		09.Clase\ProjectSistemaGestion\script.sql = 09.Clase\ProjectSistemaGestion\script.sql
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSistemaGestion", "09.Clase\ProjectSistemaGestion\ProjectSistemaGestion.sqlproj", "{32435E9C-C5AA-42C4-AA8D-91524FE72C2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "09.Clase\ConsoleApp1\ConsoleApp1.csproj", "{FBF69F88-0E70-4FE7-BE95-7158E7E1A189}"
 	ProjectSection(SolutionItems) = preProject
