@@ -14,7 +14,7 @@ public class Producto
     {
         get
         {
-            if(!string.IsNullOrEmpty(categoria)) return this.categoria;
+            if (!string.IsNullOrEmpty(categoria)) return this.categoria;
             else return "Sin categoria";
         }
     }

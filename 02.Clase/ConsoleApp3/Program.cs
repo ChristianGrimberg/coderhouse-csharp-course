@@ -39,19 +39,19 @@ switch (comision)
 Console.Write("Ingrese la nota del alumno: ");
 calificacion = Convert.ToInt32(Console.ReadLine());
 
-if(calificacion >= 0 && calificacion < 4)
+if (calificacion >= 0 && calificacion < 4)
 {
     Console.WriteLine("Recursa");
 }
 else
 {
-    if(calificacion >= 4 && calificacion <= 7)
+    if (calificacion >= 4 && calificacion <= 7)
     {
         Console.WriteLine("Aprobo la cursada");
     }
     else
     {
-        if(calificacion > 7 && calificacion <= 10)
+        if (calificacion > 7 && calificacion <= 10)
         {
             Console.WriteLine("Promociono la materia");
         }

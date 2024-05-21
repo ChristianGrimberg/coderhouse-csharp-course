@@ -8,9 +8,9 @@ namespace WinFormsApp2
 {
     internal class ProductosConE
     {
-        private List<Producto> _productosConE;   
+        private List<Producto> _productosConE;
 
-        public ProductosConE() 
+        public ProductosConE()
         {
             _productosConE = new List<Producto>();
         }
@@ -21,7 +21,7 @@ namespace WinFormsApp2
                 if (arrayProductos[i].descripcion.Contains("E") || arrayProductos[i].descripcion.Contains("e"))
                 {
                     _productosConE.Add(new Producto(arrayProductos[i].codigo, arrayProductos[i].descripcion));
-                    
+
                 }
             }
         }

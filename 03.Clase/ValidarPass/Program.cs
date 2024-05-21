@@ -1,4 +1,4 @@
-﻿﻿int intentos = 0;
+﻿int intentos = 0;
 string contrasenia;
 bool ingreso = true;
 
@@ -9,10 +9,10 @@ while (ingreso)
 {
     contrasenia = Console.ReadLine();
     intentos++;
-    
-    if(contrasenia.Equals("usSystem-2022"))
+
+    if (contrasenia.Equals("usSystem-2022"))
     {
-       //ingreso = false;
+        //ingreso = false;
         Console.WriteLine("Bienvenido a CoderHouse Dev");
         break;
     }

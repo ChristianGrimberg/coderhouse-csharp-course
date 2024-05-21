@@ -39,7 +39,7 @@ void venta()
         Console.Write("Ingrese el codigo que desee comprar: ");
         codigo = Console.ReadLine().ToUpper();
 
-        if(codigo == "FIN") break;
+        if (codigo == "FIN") break;
 
         Console.Write("Ingrese la cantidad que desee comprar: ");
         cantProductos = int.Parse(Console.ReadLine());
@@ -47,7 +47,7 @@ void venta()
         Console.Write("Desea comprarlo? Ingrese SI para aceptar: ");
         confirmacion = Console.ReadLine().ToUpper();
 
-        if(confirmacion == "SI") montoAPagar += (cantProductos * precioCodigo(codigo));
+        if (confirmacion == "SI") montoAPagar += (cantProductos * precioCodigo(codigo));
 
         Console.WriteLine("Su monto a pagar es {0}", montoAPagar);
     }

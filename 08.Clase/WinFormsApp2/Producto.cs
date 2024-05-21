@@ -10,7 +10,7 @@ namespace WinFormsApp2
     {
         public int codigo { get; set; }
         public string descripcion { get; set; }
-        public Producto(int codigo, string descripcion) 
+        public Producto(int codigo, string descripcion)
         {
             this.codigo = codigo;
             this.descripcion = descripcion;

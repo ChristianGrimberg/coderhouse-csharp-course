@@ -1,7 +1,7 @@
-﻿﻿int cantidadDeNotas = 0;
+﻿int cantidadDeNotas = 0;
 double promedioNotas = 0;
 double nota;
-double sumaNotas  = 0;
+double sumaNotas = 0;
 
 Console.Write("Ingrese la cantidad de notas a calcular: ");
 cantidadDeNotas = int.Parse(Console.ReadLine());
@@ -50,7 +50,7 @@ Console.WriteLine("Los multiplos de 5 son: ");
 
 for (int i = 1; i <= numeroTopeMultiplos; i++)
 {
-    if(i % 5 == 0)
+    if (i % 5 == 0)
     {
         Console.Write(i + ", ");
     }

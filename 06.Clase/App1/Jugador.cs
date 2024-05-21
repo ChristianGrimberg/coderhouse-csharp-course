@@ -9,7 +9,7 @@
         protected int Pase { get; set; }
         protected int Fisico { get; set; }
 
-        public Jugador( int velocidad, int tiro, int regate, int defensa, int pase, int fisico)
+        public Jugador(int velocidad, int tiro, int regate, int defensa, int pase, int fisico)
         {
             this.Velocidad = velocidad;
             this.Tiro = tiro;

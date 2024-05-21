@@ -1,6 +1,6 @@
 ﻿namespace App1
 {
-    internal class Ronaldo : Jugador , IJugador
+    internal class Ronaldo : Jugador, IJugador
     {
         public Ronaldo(int velocidad, int tiro, int regate, int defensa, int pase, int fisico) : base(velocidad, tiro, regate, defensa, pase, fisico)
         {

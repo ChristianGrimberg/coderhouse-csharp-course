@@ -14,19 +14,19 @@ namespace WinFormsApp2
                 new Dictionary<string, double> { { "Cat Chow", 900 }, { "Wiskas", 1200 }, { "Pedigres", 1800 } });
 
             catalogoPetShop.Add("Alimento para perros cachorros",
-                new Dictionary<string, double> { {"Dog Chow", 1500}, {"Pro Plan", 2500 }, {"Pedigres", 5850 } }); 
+                new Dictionary<string, double> { { "Dog Chow", 1500 }, { "Pro Plan", 2500 }, { "Pedigres", 5850 } });
 
 
             lstAlimentos.Items.Add("Seccion\t\t\t\t\tProducto\t\tPrecio");
 
-            foreach (KeyValuePair<string, Dictionary<string,double>> seccion in catalogoPetShop)
+            foreach (KeyValuePair<string, Dictionary<string, double>> seccion in catalogoPetShop)
             {
                 lstAlimentos.Items.Add(seccion.Key);
 
-                foreach (KeyValuePair<string,double> productoPrecio in seccion.Value)
+                foreach (KeyValuePair<string, double> productoPrecio in seccion.Value)
                 {
                     lstAlimentos.Items.Add("\t\t\t\t\t" + productoPrecio.Key + "\t\t" + productoPrecio.Value);
-                    
+
                 }
 
             }

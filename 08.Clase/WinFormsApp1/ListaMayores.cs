@@ -14,23 +14,23 @@ namespace WinFormsApp1
         {
             _clientesMayores = new List<Cliente>();
         }
-        public void InsertarEnLista(Cliente[] clientes) 
+        public void InsertarEnLista(Cliente[] clientes)
         {
             for (int i = 0; i < clientes.Length; i++)
             {
-                _clientesMayores.Add(new Cliente(clientes[i].Nombre, clientes[i].Direccion, clientes[i].ID,  clientes[i].Edad));
+                _clientesMayores.Add(new Cliente(clientes[i].Nombre, clientes[i].Direccion, clientes[i].ID, clientes[i].Edad));
             }
         }
 
         public bool Borrar(Cliente cliente)
         {
-            if(!_clientesMayores.Contains(cliente))
+            if (!_clientesMayores.Contains(cliente))
             {
                 return false;
             }
             return _clientesMayores.Remove(cliente);
         }
-        
+
         public int Buscar(Cliente cliente)
         {
             return _clientesMayores.IndexOf(cliente);
@@ -47,7 +47,7 @@ namespace WinFormsApp1
                 return false;
             }
             _clientesMayores[posicion] = nuevoCliente;
-            
+
             return true;
         }
         public void LimpiarLista()

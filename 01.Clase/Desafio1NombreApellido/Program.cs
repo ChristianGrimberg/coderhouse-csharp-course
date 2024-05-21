@@ -10,15 +10,15 @@ class Program
         string nombre;
         nombre = "Christian";
 
-        Console.WriteLine("Mi nombre es: {0}",nombre);
+        Console.WriteLine("Mi nombre es: {0}", nombre);
 
         string apellido = "Grimberg";
 
-        Console.WriteLine("Mi apellido es: {0}",apellido);
+        Console.WriteLine("Mi apellido es: {0}", apellido);
 
         const int dni = 123456789;
 
-        Console.WriteLine("Mi DNI es: {0}",dni);
+        Console.WriteLine("Mi DNI es: {0}", dni);
 
         // Ejemplo 2
         int number1;
@@ -31,7 +31,7 @@ class Program
         number2 = Convert.ToInt32(Console.ReadLine());
 
         int total = number1 + number2;
-        Console.WriteLine("El total de la suma es: {0}",total);
+        Console.WriteLine("El total de la suma es: {0}", total);
 
         // Ejemplo 3
         Console.WriteLine("Mi nombre es {0} {1} {2}", nombre, "stui", apellido);

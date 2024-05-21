@@ -24,12 +24,12 @@ void validoIngreso()
     Console.Write("Ingrese la contraseña: ");
 
 
-    while(ingreso)
+    while (ingreso)
     {
         contraseña = Console.ReadLine();
         intentos++;
-        
-        if(validarContraseña(contraseña))
+
+        if (validarContraseña(contraseña))
         {
             string passOculto = ocultarPass(contraseña);
             Console.WriteLine("Bienvenido a CoderHouse Dev");
@@ -42,7 +42,7 @@ void validoIngreso()
             break;
         }
 
-        int restoDeIntentos = 5- intentos;
+        int restoDeIntentos = 5 - intentos;
         Console.Write("Su contrase no fue valida, le quedan {0} intentos. Pruebe nuevamente: ", restoDeIntentos);
 
     }

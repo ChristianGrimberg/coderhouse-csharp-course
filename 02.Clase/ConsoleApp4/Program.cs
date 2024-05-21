@@ -27,7 +27,7 @@ perfilIngresado = Console.ReadLine();
 Console.Write("Ingrese su contraseña: ");
 passIngresado = Convert.ToInt32(Console.ReadLine());
 
-if(passIngresado == pass)
+if (passIngresado == pass)
 {
     switch (perfilIngresado)
     {

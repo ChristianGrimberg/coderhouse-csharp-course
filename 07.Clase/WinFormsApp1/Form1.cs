@@ -29,8 +29,8 @@ namespace WinFormsApp1
             //Ciudades por Pais
 
             ciudadesxPaises.Add("Buenos Aires", "Argentina");
-            ciudadesxPaises.Add("Madrid", "España");
-            ciudadesxPaises.Add("París", "Francia");
+            ciudadesxPaises.Add("Madrid", "Espaï¿½a");
+            ciudadesxPaises.Add("Parï¿½s", "Francia");
             ciudadesxPaises.Add("Roma", "Italia");
             ciudadesxPaises.Add("Londres", "Reino Unido");
             ciudadesxPaises.Add("Lima", "Bolivia");
@@ -54,9 +54,9 @@ namespace WinFormsApp1
         private void button3_Click(object sender, EventArgs e)
         {
             ciudadesxPaises["Londres"] = "Madrid";
-            
+
             lstCiudadesPais.Items.Clear();
-            
+
             foreach (KeyValuePair<string, string> ciudad in ciudadesxPaises)
             {
                 lstCiudadesPais.Items.Add(ciudad.Key + " - " + ciudad.Value);

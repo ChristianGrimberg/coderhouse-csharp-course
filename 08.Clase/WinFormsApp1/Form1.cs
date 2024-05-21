@@ -64,7 +64,7 @@ namespace WinFormsApp1
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            dgMayores.DataSource= null;
+            dgMayores.DataSource = null;
             dgMayores.Refresh();
             mayores.LimpiarLista();
         }

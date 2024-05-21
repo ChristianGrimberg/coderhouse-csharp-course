@@ -18,7 +18,7 @@ string categoria;
 Console.Write("Ingrese la categoria A, B, C o D: ");
 categoria = Console.ReadLine();
 
-if(String.IsNullOrWhiteSpace(categoria))
+if (String.IsNullOrWhiteSpace(categoria))
 {
     switch (categoria)
     {
